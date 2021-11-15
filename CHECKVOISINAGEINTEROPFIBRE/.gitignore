@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.scannerwork/.sonar_lock
+.scannerwork/report-task.txt
+.scannerwork/css-bundle/stylelintconfig.json
+.scannerwork/css-bundle/bin/server
+.scannerwork/css-bundle/lib/tsconfig.tsbuildinfo
+.scannerwork/css-bundle/lib/src/server.d.ts
+.scannerwork/css-bundle/lib/src/server.js
+.scannerwork/css-bundle/lib/src/server.js.map
+.scannerwork/css-bundle/package/package.json
+.scannerwork/css-bundle/package/yarn.lock

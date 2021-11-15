@@ -1,0 +1,10 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/CHECKVOISINAGEINTEROPFIBREAPI/CVI.API/bin/Debug/netcoreapp3.1
+/CHECKVOISINAGEINTEROPFIBREAPI/CVI.API/WebLogFiles
+/CHECKVOISINAGEINTEROPFIBREAPI/CVI.Domain/bin/Debug/netcoreapp3.1
+/CHECKVOISINAGEINTEROPFIBREAPI/CVI.Infrastructure/bin/Debug/netcoreapp3.1
+/CHECKVOISINAGEINTEROPFIBREAPI/CVI.Service/bin/Debug/netcoreapp3.1
+/CHECKVOISINAGEINTEROPFIBREAPI/CVI.XUnitTest/bin/Debug/netcoreapp3.1

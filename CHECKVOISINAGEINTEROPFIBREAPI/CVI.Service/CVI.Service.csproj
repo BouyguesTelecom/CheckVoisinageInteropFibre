@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configuration\**" />
+    <Compile Remove="CVI\DTO\enums\**" />
+    <Compile Remove="Referential\DTO\**" />
+    <Compile Remove="Referential\ItemData\**" />
+    <Compile Remove="AlarmSystem\DTO\**" />
+    <EmbeddedResource Remove="Configuration\**" />
+    <EmbeddedResource Remove="CVI\DTO\enums\**" />
+    <EmbeddedResource Remove="Referential\DTO\**" />
+    <EmbeddedResource Remove="Referential\ItemData\**" />
+    <EmbeddedResource Remove="AlarmSystem\DTO\**" />
+    <None Remove="Configuration\**" />
+    <None Remove="CVI\DTO\enums\**" />
+    <None Remove="Referential\DTO\**" />
+    <None Remove="Referential\ItemData\**" />
+    <None Remove="AlarmSystem\DTO\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CVI\Result\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="2.1.0" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CVI.Domain\CVI.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CVI.Domain\CVI.Domain.csproj" />
+    <ProjectReference Include="..\CVI.Infrastructure\CVI.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
